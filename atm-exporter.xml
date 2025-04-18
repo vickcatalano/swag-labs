@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10100</projectId>
+    <projectKey>SCRM</projectKey>
+    <exportDate>2025-04-18 17:06:19 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="234854239" key="SCRM-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Victoria Jorge Catalano</createdBy>
+            <createdOn>2025-04-18 16:49:07 UTC</createdOn>
+            <customFields/>
+            <issues>
+                <issue>
+                    <key>SCRUM-1</key>
+                    <summary><![CDATA[Como cliente da loja online, quero localizar produtos de forma rápida e intuitiva, para que eu não precise perder tempo navegando manualmente.
+]]></summary>
+                </issue>
+                <issue>
+                    <key>SCRM-4</key>
+                    <summary><![CDATA[Como cliente, quero receber um e-mail de confirmação de compra com os detalhes do meu pedido, para que eu tenha segurança da transação e acesso fácil às informações da minha compra.]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Verificar se a barra de pesquisa está visível e funcional na página inicial da loja]]></name>
+            <objective><![CDATA[<p id="isPasted">O objetivo deste teste &eacute; verificar se a barra de pesquisa est&aacute; vis&iacute;vel e funcional na p&aacute;gina inicial da loja online. O teste garante que o cliente consiga localizar rapidamente produtos espec&iacute;ficos ao pesquisar um termo, como &quot;T&ecirc;nis preto&quot;, sem precisar navegar manualmente pelas categorias do site. O foco &eacute; assegurar que a busca seja eficiente e forne&ccedil;a resultados relevantes.</p><br><table><thead><tr><th style="width: 5.3152%;">Passo</th><th style="width: 47.8741%;">A&ccedil;&atilde;o</th><th>Resultado Esperado</th></tr></thead><tbody><tr><td style="width: 5.3152%;">1</td><td style="width: 47.8741%;">Acessar a p&aacute;gina inicial da loja</td><td>A p&aacute;gina &eacute; carregada com sucesso</td></tr><tr><td style="width: 5.3152%;">2</td><td style="width: 47.8741%;">Verificar se h&aacute; uma barra de pesquisa vis&iacute;vel no topo da p&aacute;gina</td><td>A barra de pesquisa deve estar vis&iacute;vel e acess&iacute;vel</td></tr><tr><td style="width: 5.3152%;">3</td><td style="width: 47.8741%;">Clicar na barra de pesquisa</td><td>O campo deve estar ativo e pronto para digita&ccedil;&atilde;o</td></tr><tr><td style="width: 5.3152%;">4</td><td style="width: 47.8741%;">Digitar &quot;T&ecirc;nis preto&quot; na barra de pesquisa</td><td>O texto deve ser exibido no campo de busca</td></tr><tr><td style="width: 5.3152%;">5</td><td style="width: 47.8741%;">Pressionar a tecla &quot;Enter&quot; ou clicar no &iacute;cone de busca</td><td>O sistema realiza a busca</td></tr><tr><td style="width: 5.3152%;">6</td><td style="width: 47.8741%;">Verificar se os resultados incluem produtos relacionados a &quot;T&ecirc;nis preto&quot;</td><td>A lista de resultados deve exibir produtos com essa descri&ccedil;&atilde;o no nome</td></tr></tbody></table><br><hr><ul><li><p><strong>Resultado esperado final:</strong> O usu&aacute;rio encontra produtos relevantes ao termo pesquisado de forma r&aacute;pida e sem precisar navegar por categorias.</p></li><li><p><strong>Resultado obtido:</strong> (a ser preenchido durante a execu&ccedil;&atilde;o)</p></li><li><p><strong>Status do teste:</strong> (Passou / Falhou)</p></li></ul><p><br></p>]]></objective>
+            <owner>712020:5b8b3861-7181-4ef0-9e90-12e98ba6cbb6</owner>
+            <precondition><![CDATA[<ul id="isPasted"><li><p>A loja online deve estar no ar</p></li><li><p>O cliente acessa a p&aacute;gina inicial do site</p></li></ul><ul><li id="isPasted"><p><strong>Dados de entrada:</strong></p><ul><li><p>Produto buscado: <code>&quot;T&ecirc;nis preto&quot;</code></p></li></ul></li></ul>]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar a p&aacute;gina inicial da loja]]></description>
+                        <expectedResult><![CDATA[A p&aacute;gina &eacute; carregada com sucesso]]></expectedResult>
+                        <testData><![CDATA[https://www.saucedemo.com/v1/inventory.html]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Verificar se h&aacute; uma barra de pesquisa vis&iacute;vel no topo da p&aacute;gina]]></description>
+                        <expectedResult><![CDATA[A barra de pesquisa deve estar vis&iacute;vel e acess&iacute;vel]]></expectedResult>
+                        <testData><![CDATA[- Ambiente: Homologa&ccedil;&atilde;o<br id="isPasted">- Navegador: Chrome 122.0<br>- Resolu&ccedil;&atilde;o: 1920x1080<br>- Usu&aacute;rio: Visitante (n&atilde;o autenticado)<br>- Elemento esperado: Barra de pesquisa localizada no topo da p&aacute;gina<br>- Placeholder esperado (se aplic&aacute;vel): &quot;O que voc&ecirc; est&aacute; procurando?&quot;]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Clicar na barra de pesquisa]]></description>
+                        <expectedResult><![CDATA[O campo deve estar ativo e pronto para digita&ccedil;&atilde;o<br><br>]]></expectedResult>
+                        <testData><![CDATA[- Localiza&ccedil;&atilde;o: Barra de pesquisa no topo da p&aacute;gina<br id="isPasted">- Placeholder: &quot;O que voc&ecirc; est&aacute; procurando?&quot;<br>- A&ccedil;&atilde;o: Clique com o mouse no campo de busca<br>- Elemento: input.search-bar]]></testData>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Digitar &quot;T&ecirc;nis preto&quot; na barra de pesquisa]]></description>
+                        <expectedResult><![CDATA[O texto deve ser exibido no campo de busca]]></expectedResult>
+                        <testData><![CDATA[- Texto a ser digitado: &quot;T&ecirc;nis preto&quot;<br id="isPasted">- Elemento de entrada: input.search-bar<br>- A&ccedil;&atilde;o: Digitar &quot;T&ecirc;nis preto&quot; no campo de busca]]></testData>
+                    </step>
+                    <step index="4">
+                        <customFields/>
+                        <description><![CDATA[Pressionar a tecla &quot;Enter&quot; ou clicar no &iacute;cone de busca]]></description>
+                        <expectedResult><![CDATA[O sistema realiza a busca]]></expectedResult>
+                        <testData><![CDATA[- Texto digitado: &quot;T&ecirc;nis preto&quot;<br id="isPasted">- A&ccedil;&atilde;o: Pressionar a tecla &quot;Enter&quot; ou clicar no &iacute;cone de busca (lupa)<br>- Elemento: input.search-bar / &iacute;cone de busca (lupa)]]></testData>
+                    </step>
+                    <step index="5">
+                        <customFields/>
+                        <description><![CDATA[Verificar se os resultados incluem produtos relacionados a &quot;T&ecirc;nis preto&quot;]]></description>
+                        <expectedResult><![CDATA[<table id="isPasted"><tbody><tr><td>A lista de resultados deve exibir produtos com essa descri&ccedil;&atilde;o no nome</td></tr></tbody></table>]]></expectedResult>
+                        <testData><![CDATA[- Texto pesquisado: &quot;T&ecirc;nis preto&quot;<br id="isPasted">- A&ccedil;&atilde;o: Verificar os produtos exibidos nos resultados<br>- Expectativa: A lista de produtos deve incluir itens que correspondem ao termo &quot;T&ecirc;nis preto&quot;, como &quot;T&ecirc;nis Preto Nike&quot;, &quot;T&ecirc;nis Preto Adidas&quot;, etc.]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="234854240" key="SCRM-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Victoria Jorge Catalano</createdBy>
+            <createdOn>2025-04-18 16:49:07 UTC</createdOn>
+            <customFields/>
+            <issues>
+                <issue>
+                    <key>SCRM-4</key>
+                    <summary><![CDATA[Como cliente, quero receber um e-mail de confirmação de compra com os detalhes do meu pedido, para que eu tenha segurança da transação e acesso fácil às informações da minha compra.]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Verificar resposta do sistema quando o produto não é encontrado.]]></name>
+            <objective><![CDATA[O objetivo deste teste &eacute; verificar a resposta do sistema quando o produto pesquisado n&atilde;o &eacute; encontrado. O sistema deve informar claramente o usu&aacute;rio de que n&atilde;o h&aacute; resultados para o termo pesquisado, proporcionando uma boa experi&ecirc;ncia de usu&aacute;rio e evitando que ele fique sem saber o que aconteceu.<br><br><table><thead><tr><th>Passo</th><th>A&ccedil;&atilde;o</th><th>Resultado Esperado</th></tr></thead><tbody><tr><td>1</td><td>Acessar a p&aacute;gina inicial da loja</td><td>P&aacute;gina inicial carregada</td></tr><tr><td>2</td><td>Digitar <code>produto_inexistente_999</code> na barra de pesquisa</td><td>Texto digitado corretamente</td></tr><tr><td>3</td><td>Pressionar &quot;Enter&quot; ou clicar na lupa</td><td>O sistema executa a busca</td></tr><tr><td>4</td><td>Verificar a mensagem exibida</td><td>Deve aparecer uma mensagem do tipo &quot;Nenhum resultado encontrado&quot;</td></tr></tbody></table><br><ul><li><p><strong>Resultado esperado final:</strong> Sistema lida corretamente com termos sem resultado, e informa claramente ao usu&aacute;rio.</p></li></ul>]]></objective>
+            <owner>712020:5b8b3861-7181-4ef0-9e90-12e98ba6cbb6</owner>
+            <precondition><![CDATA[<ul><li id="isPasted"><p>A loja online est&aacute; no ar</p></li><li><p>Usu&aacute;rio acessa a p&aacute;gina inicial</p></li><li><p><strong>Dados de entrada:</strong> <code>&quot;produto_inexistente_999&quot;</code></p></li></ul>]]></precondition>
+            <priority><![CDATA[Low]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar a p&aacute;gina inicial da loja]]></description>
+                        <expectedResult><![CDATA[P&aacute;gina inicial carregada]]></expectedResult>
+                        <testData><![CDATA[https://www.saucedemo.com/v1/inventory.html]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Digitar <code id="isPasted">produto_inexistente_999</code> na barra de pesquisa]]></description>
+                        <expectedResult><![CDATA[Texto digitado corretamente]]></expectedResult>
+                        <testData><![CDATA[- Texto a ser digitado: &quot;produto_inexistente_999&quot;<br id="isPasted">- Elemento de entrada: input.search-bar<br>- A&ccedil;&atilde;o: Digitar &quot;produto_inexistente_999&quot; no campo de busca]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Pressionar &quot;Enter&quot; ou clicar na lupa]]></description>
+                        <expectedResult><![CDATA[O sistema executa a busca]]></expectedResult>
+                        <testData><![CDATA[- Texto pesquisado: &quot;produto_inexistente_999&quot;<br id="isPasted">- A&ccedil;&atilde;o: Pressionar a tecla &quot;Enter&quot; ou clicar no &iacute;cone de busca (lupa)<br>- Elemento de pesquisa: input.search-bar / &iacute;cone de busca (lupa)]]></testData>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Verificar a mensagem exibida]]></description>
+                        <expectedResult><![CDATA[<table id="isPasted"><tbody><tr><td>Deve aparecer uma mensagem do tipo &quot;Nenhum resultado encontrado&quot;<br><br></td></tr></tbody></table>]]></expectedResult>
+                        <testData><![CDATA[- Texto pesquisado: &quot;produto_inexistente_999&quot;<br id="isPasted">- A&ccedil;&atilde;o: Ap&oacute;s realizar a busca, verificar se a mensagem &quot;Nenhum resultado encontrado&quot; &eacute; exibida.<br>- Elemento da mensagem: &aacute;rea de resultados da pesquisa ou um pop-up/modal (dependendo da interface da loja online)<br>- Mensagem esperada: &quot;Nenhum resultado encontrado para 'produto_inexistente_999'&quot; (ou mensagem similar que informe claramente que n&atilde;o h&aacute; resultados).<br>- Condi&ccedil;&atilde;o de sucesso: A mensagem deve ser clara, vis&iacute;vel e posicionada de forma destacada, normalmente no topo ou no centro da &aacute;rea de resultados.<br>- Outros comportamentos esperados: Se houver sugest&otilde;es de produtos ou categorias populares, elas devem ser apresentadas logo abaixo ou junto &agrave; mensagem.]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="234854241" key="SCRM-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Victoria Jorge Catalano</createdBy>
+            <createdOn>2025-04-18 16:49:07 UTC</createdOn>
+            <customFields/>
+            <issues>
+                <issue>
+                    <key>SCRM-4</key>
+                    <summary><![CDATA[Como cliente, quero receber um e-mail de confirmação de compra com os detalhes do meu pedido, para que eu tenha segurança da transação e acesso fácil às informações da minha compra.]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Verificar se o sistema sugere produtos similares em caso de erro de digitação]]></name>
+            <objective><![CDATA[Este teste tem como objetivo verificar a toler&acirc;ncia do sistema a pequenos erros de digita&ccedil;&atilde;o durante uma busca por produtos. Ao digitar um termo com erro leve (ex: &quot;Teniz preto&quot;), o sistema deve ser capaz de identificar a inten&ccedil;&atilde;o do usu&aacute;rio, sugerindo a corre&ccedil;&atilde;o automaticamente (ex: &quot;Voc&ecirc; quis dizer 'T&ecirc;nis preto'?&quot;) ou exibindo produtos relevantes, garantindo uma experi&ecirc;ncia de busca eficiente e inteligente.<br><br>Passos (Step By Step):&nbsp;<br><table id="isPasted"><thead><tr><th>Passo</th><th>A&ccedil;&atilde;o</th><th>Resultado Esperado</th></tr></thead><tbody><tr><td>1</td><td>Acessar a p&aacute;gina inicial</td><td>P&aacute;gina carregada</td></tr><tr><td>2</td><td>Digitar <code>Teniz preto</code> na barra de busca</td><td>Texto aceito</td></tr><tr><td>3</td><td>Executar a busca</td><td>Sistema processa a entrada</td></tr><tr><td>4</td><td>Verificar se aparecem sugest&otilde;es ou produtos similares</td><td>Exibe sugest&otilde;es como &quot;Voc&ecirc; quis dizer 'T&ecirc;nis preto'?&quot; com produtos</td></tr></tbody></table><br><ul><li><p><strong>Resultado esperado final:</strong> Sistema oferece sugest&otilde;es ou resultados mesmo com digita&ccedil;&atilde;o incorreta leve.</p></li></ul><br><br>]]></objective>
+            <owner>712020:5b8b3861-7181-4ef0-9e90-12e98ba6cbb6</owner>
+            <precondition><![CDATA[<ul><li id="isPasted"><p><strong>Pr&eacute;-condi&ccedil;&otilde;es:</strong> Loja online acess&iacute;vel</p></li><li><p><strong>Dados de entrada:</strong> <code>&quot;Teniz preto&quot;</code> (erro proposital)</p></li></ul>]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar a p&aacute;gina inicial]]></description>
+                        <expectedResult><![CDATA[P&aacute;gina carregada]]></expectedResult>
+                        <testData><![CDATA[https://www.saucedemo.com/v1/inventory.html]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Digitar <code id="isPasted">Teniz preto</code> na barra de busca]]></description>
+                        <expectedResult><![CDATA[Texto aceito]]></expectedResult>
+                        <testData><![CDATA[<p id="isPasted"><br></p><ul><li><p>Exibi&ccedil;&atilde;o de resultados de t&ecirc;nis preto (mesmo com erro de digita&ccedil;&atilde;o).</p></li><li><p>Corre&ccedil;&atilde;o sugerida de &quot;Teniz&quot; para &quot;T&ecirc;nis&quot;, caso o sistema tenha corre&ccedil;&atilde;o autom&aacute;tica ou sugerir a corre&ccedil;&atilde;o ao lado do termo de busca.</p></li></ul>]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Executar a busca]]></description>
+                        <expectedResult><![CDATA[Sistema processa a entrada]]></expectedResult>
+                        <testData><![CDATA[Texto digitado: &quot;T&ecirc;nis preto&quot; (ou qualquer outro termo v&aacute;lido ou inv&aacute;lido que se deseje testar).]]></testData>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Verificar se aparecem sugest&otilde;es ou produtos similares]]></description>
+                        <expectedResult><![CDATA[Exibe sugest&otilde;es como &quot;Voc&ecirc; quis dizer 'T&ecirc;nis preto'?&quot; com produtos]]></expectedResult>
+                        <testData><![CDATA[<ul><li id="isPasted"><p>Texto digitado (exemplo 1): &quot;Teniz preto&quot; (erro de digita&ccedil;&atilde;o)</p></li><li><p>Texto digitado (exemplo 2): &quot;Tenis de futebol&quot; (sem acentua&ccedil;&atilde;o)</p></li><li><p>Texto digitado (exemplo 3): &quot;Bicicleta&quot; (termo mais vago)</p></li></ul>]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="234854242" key="SCRM-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Victoria Jorge Catalano</createdBy>
+            <createdOn>2025-04-18 16:49:07 UTC</createdOn>
+            <customFields/>
+            <issues>
+                <issue>
+                    <key>SCRM-2</key>
+                    <summary><![CDATA[Como cliente, quero receber um e-mail de confirmação de compra com os detalhes do meu pedido, para que eu tenha segurança da transação e acesso fácil às informações da minha compra]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Envio de e-mail de confirmação de compra]]></name>
+            <objective><![CDATA[<p id="isPasted">Validar que, ap&oacute;s a finaliza&ccedil;&atilde;o bem-sucedida de uma compra na loja, o sistema envia automaticamente um e-mail de confirma&ccedil;&atilde;o para o cliente, contendo todas as informa&ccedil;&otilde;es relevantes do pedido, como itens adquiridos, valores, forma de pagamento, endere&ccedil;o de entrega e n&uacute;mero do pedido. Esse envio deve ocorrer para o e-mail cadastrado pelo cliente e tem como finalidade garantir seguran&ccedil;a, transpar&ecirc;ncia e acesso r&aacute;pido &agrave;s informa&ccedil;&otilde;es da compra realizada.</p><p>Este caso de teste assegura que o cliente recebe a devida confirma&ccedil;&atilde;o da transa&ccedil;&atilde;o, fortalecendo a confian&ccedil;a no processo de compra e reduzindo poss&iacute;veis chamadas ao suporte por falta de informa&ccedil;&otilde;es.</p><br>Feature: Envio de e-mail de confirma&ccedil;&atilde;o de compra<br id="isPasted"><br>&nbsp; Como cliente da loja online &nbsp;<br>&nbsp; Quero receber um e-mail de confirma&ccedil;&atilde;o ap&oacute;s concluir uma compra com sucesso &nbsp;<br>&nbsp; Para que eu tenha seguran&ccedil;a, transpar&ecirc;ncia e acesso r&aacute;pido &agrave;s informa&ccedil;&otilde;es da minha compra<br><br>&nbsp; Background:<br>&nbsp; &nbsp; Dado que o cliente possui uma conta v&aacute;lida e est&aacute; autenticado no sistema<br>&nbsp; &nbsp; E o cliente possui um endere&ccedil;o de e-mail cadastrado corretamente e ativo<br>&nbsp; &nbsp; E h&aacute; um ou mais itens dispon&iacute;veis no carrinho de compras<br>&nbsp; &nbsp; E o servi&ccedil;o de envio de e-mails est&aacute; operacional<br><br>]]></objective>
+            <owner>712020:5b8b3861-7181-4ef0-9e90-12e98ba6cbb6</owner>
+            <precondition><![CDATA[<ul id="isPasted"><li><p>O cliente deve possuir uma conta v&aacute;lida e estar autenticado no sistema.</p></li><li><p>O cliente deve ter um endere&ccedil;o de e-mail cadastrado corretamente e ativo no perfil.</p></li><li><p>Deve haver um ou mais itens dispon&iacute;veis no carrinho de compras.</p></li><li><p>O processo de pagamento deve ter sido conclu&iacute;do com sucesso, sem erros de transa&ccedil;&atilde;o.</p></li><li><p>O servi&ccedil;o de envio de e-mails deve estar operacional.</p></li></ul>]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[cenario 1: Cliente finaliza a compra e recebe e-mail de confirmação
+    Given que o cliente está logado e possui itens no carrinho
+    When ele finaliza a compra com sucesso
+    Then o sistema envia um e-mail com os detalhes do pedido
+    And o e-mail é enviado para o endereço de e-mail do cliente]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="234854243" key="SCRM-T5">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Victoria Jorge Catalano</createdBy>
+            <createdOn>2025-04-18 16:49:07 UTC</createdOn>
+            <customFields/>
+            <issues>
+                <issue>
+                    <key>SCRUM-2</key>
+                    <summary><![CDATA[Como cliente da loja, eu quero  poder pagar minhas compras por meio de transferência bancária para que eu tenha mais flexibilidade na escolha da forma de pagamento.]]></summary>
+                </issue>
+                <issue>
+                    <key>SCRM-3</key>
+                    <summary><![CDATA[Como cliente da loja, eu quero  poder pagar minhas compras por meio de transferência bancária para que eu tenha mais flexibilidade na escolha da forma de pagamento.]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Exibição da opção "Transferência Bancária"]]></name>
+            <objective><![CDATA[Validar que o sistema permite ao cliente selecionar transfer&ecirc;ncia banc&aacute;ria como forma de pagamento durante o processo de finaliza&ccedil;&atilde;o da compra, garantindo que essa op&ccedil;&atilde;o esteja dispon&iacute;vel quando devidamente configurada e que, ao ser escolhida, o pedido seja corretamente registrado com o status apropriado (por exemplo, &quot;Aguardando pagamento&quot;). Al&eacute;m disso, o sistema deve apresentar todas as informa&ccedil;&otilde;es necess&aacute;rias para a realiza&ccedil;&atilde;o da transfer&ecirc;ncia, como dados banc&aacute;rios e instru&ccedil;&otilde;es claras, e garantir o envio autom&aacute;tico dessas informa&ccedil;&otilde;es ao e-mail do cliente, promovendo flexibilidade, clareza e seguran&ccedil;a no processo de compra.<br><br>Background:<br id="isPasted">&nbsp; &nbsp; Dado que o cliente est&aacute; autenticado no sistema<br>&nbsp; &nbsp; E h&aacute; produtos adicionados no carrinho<br>&nbsp; &nbsp; E a op&ccedil;&atilde;o de &quot;Transfer&ecirc;ncia Banc&aacute;ria&quot; est&aacute; habilitada no sistema]]></objective>
+            <owner>712020:5b8b3861-7181-4ef0-9e90-12e98ba6cbb6</owner>
+            <precondition><![CDATA[<ul id="isPasted"><li><p>Valida&ccedil;&atilde;o de prazos (ex: transfer&ecirc;ncia deve ser feita em at&eacute; X dias)</p></li><li><p>Confirma&ccedil;&atilde;o manual ou autom&aacute;tica da transfer&ecirc;ncia</p></li><li><p>Cen&aacute;rios negativos (ex: op&ccedil;&atilde;o desativada, tentativa sem saldo, dados banc&aacute;rios ausentes etc.)</p></li></ul><p><br></p>]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Approved]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[cenario: Exibir a opção de transferência bancária durante o checkout
+  Given que o cliente está logado e possui itens no carrinho
+  When ele acessa a página de finalização da compra
+  Then a opção "Transferência Bancária" deve estar visível entre os métodos de pagamento]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

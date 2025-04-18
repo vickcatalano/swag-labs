@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#SCRM-3] Como cliente da loja, eu quero  poder pagar minhas compras por meio de transferência bancária para que eu tenha mais flexibilidade na escolha da forma de pagamento.</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://vickcatalano.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://vickcatalano.atlassian.net/browse/SCRM-1">Melhorias Gerais na Experiência do Usuário e Segurança da Plataforma</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://vickcatalano.atlassian.net/browse/SCRM-1">SCRM-1</a>)</span>
+                <h3 class="formtitle"><img src="https://vickcatalano.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [SCRM-3]&nbsp;<a href="https://vickcatalano.atlassian.net/browse/SCRM-3">Como cliente da loja, eu quero  poder pagar minhas compras por meio de transferência bancária para que eu tenha mais flexibilidade na escolha da forma de pagamento.</a>
+            <span class="subText">
+               Criado: 18/abr/25                   &nbsp;Atualizado(a): 18/abr/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Tarefas pendentes</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projeto:</b></td>
+        <td width="80%"><a href="https://vickcatalano.atlassian.net/secure/BrowseProject.jspa?id=10100">Scrum</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Componentes:</b></td>
+            <td>
+                            Nenhum
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versões afetadas:</b></td>
+            <td>
+                            Nenhum
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Versões corrigidas:</b></td>
+            <td>
+                            Nenhum
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Pai:</b></td>
+        <td width="80%"><a href="https://vickcatalano.atlassian.net/browse/SCRM-1">Melhorias Gerais na Experiência do Usuário e Segurança da Plataforma</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Tipo:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Tarefa
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Prioridade:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Relator:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:5b8b3861-7181-4ef0-9e90-12e98ba6cbb6"
+                id="word_reporter_712020:5b8b3861-7181-4ef0-9e90-12e98ba6cbb6"
+                href="https://vickcatalano.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A5b8b3861-7181-4ef0-9e90-12e98ba6cbb6">
+                    Victoria Jorge Catalano
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Responsável:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Não atribuído
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolução:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Não resolvido(s)
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votos:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Categorias:</b>
+        </td>
+        <td id="labels-10167-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Nenhum
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Estimativa de trabalho restante:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconhecido
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Tempo gasto:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconhecido
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Estimativa original:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Desconhecido
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10167-value" class="value" bgcolor="#ffffff" width="80%">      0|i0002f:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-10167-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Descrição</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Atualmente, a única forma de pagamento é cartão de crédito. Criar a forma de pagamento para transferência bancária.</p>
+
+<p>Como cliente da loja, eu quero poder pagar minhas compras por meio de transferência bancária para que eu tenha mais flexibilidade.</p>
+
+<p>Critérios de aceite:</p>
+
+<p>. Após selecionar o produto, o cliente vai ter opção para escolher a forma de pagamento que pode ser em cartão de crédito ou transferência bancária, por exemplo. </p>
+
+<p>. O cliente consegue selecionar “Transferência Bancária” como forma de pagamento.</p>
+
+<p>.  Ao selecionar essa forma de pagamento, usuário será direcionado para detalhes necessários para preenchimento do cartão de crédito ou informaçōes bancárias da loja para transferência.</p>
+
+<p>. O pedido é registrado com status “Aguardando pagamento”.</p>
+
+<p>. O sistema exibe os dados bancários e instruções de transferência.</p>
+
+<p>. O e-mail com as instruções é enviado ao cliente após a finalização da compra.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Gerado em Fri Apr 18 17:05:28 UTC 2025 por Victoria Jorge Catalano usando JIRA 1001.0.0-SNAPSHOT#100283-rev:d7533cc5e4dc1dc523775c688447acf95074e8d2.
+
+</body>
+</html>
